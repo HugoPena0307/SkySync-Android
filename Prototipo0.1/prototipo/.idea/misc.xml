@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.328" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/agendar.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/background_botao_adicionar.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/background_botao_login.xml" value="0.328" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/background_txt_telalogin.xml" value="0.363" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/backgroundlinha.xml" value="0.363" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/backgroundlinhacinza.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/cantoarredondadobota.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/cantosarredondados.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/gradiente.xml" value="0.3615" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic__699635.xml" value="0.363" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic_agendar.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic_cadeado.xml" value="0.328" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.328" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic_nuvemskysync.xml" value="0.1225" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic_perfil.xml" value="0.363" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/ic_personal.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/iconmecanica_background.xml" value="0.1725" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/drawable/nuvem1_background.xml" value="0.328" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_agendar.xml" value="0.33" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_consultar.xml" value="0.3625" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_conta.xml" value="0.3625" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_login.xml" value="0.33" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_menu.xml" value="0.33" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_orcamentos.xml" value="0.3625" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_servicos.xml" value="0.3625" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_veiculos.xml" value="0.3625" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/layout/backgroundlinha.xml" value="0.3625" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1595" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1595" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/mipmap-anydpi-v26/iconmecanica.xml" value="0.1595" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/mipmap-anydpi-v26/iconmecanica_round.xml" value="0.1595" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/mipmap-anydpi-v26/nuvem1.xml" value="0.1595" />
+        <entry key="..\:/Downloads/Prototipo 0.1/Prototipo 0.1/prototipo/app/src/main/res/mipmap-anydpi-v26/nuvem1_round.xml" value="0.1595" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/drawable/backgroud_botao_agendar.xml" value="0.2895" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/drawable/background_botao_login.xml" value="0.351" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/drawable/background_botao_voltar_agendamentos.xml" value="0.305" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/drawable/background_txt_telalogin.xml" value="0.2895" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_agendar.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_consultar.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_conta.xml" value="0.35260416666666666" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_orcamentos.xml" value="0.36666666666666664" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_servicos.xml" value="0.35260416666666666" />
+        <entry key="..\:/PROJETO ATUALIZADASSO/prototipo/app/src/main/res/layout/activity_form_veiculos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_agendar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_consultar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_conta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_orcamentos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_servicos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Gustavo/Desktop/TCC/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_veiculos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Lab ETESP/Desktop/Atualizacao 1001/TCC - Prototipo/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_veiculos.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Lab/Desktop/TCC - Prototipo/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_agendar.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/Lab/Desktop/TCC - Prototipo/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_menu.xml" value="0.265625" />
+        <entry key="..\:/Users/Lab/Desktop/TCC - Prototipo/Prototipo 0.1/prototipo/app/src/main/res/layout/activity_form_veiculos.xml" value="0.33" />
+        <entry key="..\:/prototipo/app/src/main/res/layout/activity_form_agendar.xml" value="0.36666666666666664" />
+        <entry key="..\:/prototipo/app/src/main/res/layout/activity_form_login.xml" value="0.33" />
+        <entry key="..\:/prototipo/app/src/main/res/layout/activity_form_menu.xml" value="0.5" />
+        <entry key="..\:/prototipo/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
