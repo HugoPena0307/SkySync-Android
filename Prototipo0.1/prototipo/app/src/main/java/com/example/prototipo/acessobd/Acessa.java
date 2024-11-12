@@ -11,10 +11,10 @@ import java.sql.SQLException;
 
 public class Acessa {
 
-    public static boolean acessoLogin;
     public ResultSet RS;
     public java.sql.Statement stmt;
     Connection con;
+    static String emailAcesso;
 
     public Connection entBanco(Context ctx){
 
@@ -29,7 +29,7 @@ public class Acessa {
         }
 
         try{
-            String url = "jdbc:jtds:sqlserver://192.168.0.23:1433;databaseName=exemplo";
+            String url = "jdbc:jtds:sqlserver://192.168.0.23:1433;databaseName=Skisync";
             con = DriverManager.getConnection(url, "sa", "etesp");
             stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
             Toast.makeText(ctx.getApplicationContext(), "conectado ao Banco de Dados", Toast.LENGTH_SHORT).show();
@@ -40,12 +40,14 @@ public class Acessa {
         return con;
     }
 
-    public void setAcessoLogin(boolean b) {
-        acessoLogin = b;
+    public String getEmailAcesso() {
+        return emailAcesso;
     }
-    public boolean getAcessoLogin() {
-        return acessoLogin;
+
+    public void setEmailAcesso(String email) {
+        emailAcesso = email;
     }
+
     //Fim do método que vai conectar o banco
 
 }

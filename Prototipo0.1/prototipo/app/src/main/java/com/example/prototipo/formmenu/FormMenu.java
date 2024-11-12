@@ -41,7 +41,7 @@ public class FormMenu extends AppCompatActivity {
         txtViewNomeUsuario = findViewById(R.id.txtVNomeUsuario);
 
         Intent intent = getIntent();
-        String nomeUsuario = intent.getStringExtra("nomeUsuario");
+        String nomeUsuario = intent.getStringExtra("Email");
         txtViewNomeUsuario.setText(nomeUsuario);
 
         btnAgendar.setOnClickListener(new View.OnClickListener(){
@@ -119,7 +119,6 @@ public class FormMenu extends AppCompatActivity {
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                objA.setAcessoLogin(false);
                 Intent Logout = new Intent(FormMenu.this, FormLogin.class);
                 startActivity(Logout);
                 finish();

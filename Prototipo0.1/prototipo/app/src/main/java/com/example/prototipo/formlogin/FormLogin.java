@@ -33,16 +33,16 @@ public class FormLogin extends AppCompatActivity {
 
     public void entrar(View v){
         objA.entBanco(this);
-        String nome = txtUsuario.getText().toString();
+        String email = txtUsuario.getText().toString();
         String senha = txtSenha.getText().toString();
         try{
-            objA.RS=objA.stmt.executeQuery("select*from login where usuario='"+nome+"' and senha='"+senha+"'");
+            objA.RS=objA.stmt.executeQuery("select*from Id_Login where Email='"+email+"' and Senha='"+senha+"'");
             if(objA.RS.next()){
+                objA.setEmailAcesso(email);
                 //Toast.makeText(getApplicationContext(),"Abram alas", 2).show();
                 Intent intent= new Intent(FormLogin.this, FormMenu.class);
-                intent.putExtra("nomeUsuario", nome);
+                intent.putExtra("Email", email);
                 startActivity(intent);
-                objA.setAcessoLogin(true);
                 finish();
             }else{
                 Toast.makeText(getApplicationContext(), "Entrada recusada", 2).show();
