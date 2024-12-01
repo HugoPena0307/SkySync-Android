@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Empire</title>
+  <link rel="shortcut icon" href="assets/img/favIcon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="./assets/fontawesome-free-5.15.4-web/css/all.css">
+
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/index.css">
+
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="home.html"><img src="assets/img/logoPretaSemBack.png" width="125px"></a>
+      </div>
+      <nav>
+        <ul id ="MenuItems">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Produtos</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </nav>
+      <img src="assets/img/cart.png" width="30px" height="30px">
+      <img src="assets/img/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+  </div>
+
+  <section class="contact">
+    <div class="content">
+      <h2>Informações de contato</h2>
+    </div>
+    <div class="container2">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="text">
+            <h3>Endereço</h3>
+            <p>R. Itapura, 976 - Tatuapé, São Paulo</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="text">
+            <h3>Telefone</h3>    
+            <p>(11) 5789-0617</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fas fa-envelope"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>arvilani@joias.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="contactForm">
+        <form>
+          <h2>Enviar mensagem</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Nome</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Digite sua mensagem</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" name="" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Baixe nosso aplicativo</h3>
+          <p>Baixe o aplicativo para celular Android e iOS.</p>
+          <div class="app-logo">
+            <a href="https://play.google.com/store/apps?hl=pt_BR&gl=US" target="_blank"><img src="assets/img/play-store.png"></a>
+            <a href="https://www.apple.com/br/app-store/" target="_blank"><img src="assets/img/app-store.png"></a>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="assets/img/logoPretaSemBack.png">
+          <p>Nossa meta é deixar as pessoas satisfeitas com nossos produtos.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li>Cupons</li>
+            <li>Política de devolução</li>
+            <li>Benefícios</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Siga nossas redes sociais</h3>
+          <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">&#169; Copyright 2024 - Arvilani</p>
+    </div>
+  </div>
+
+  <!-- js for toggle menu -->
+  <script src="./assets/js/menu.js"></script>
+
+</body>
+</html>
