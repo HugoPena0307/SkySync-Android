@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/cotacao-style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <title>SkySync</title>
+</head>
+
+<body class="fade-in">
+    <div id="container-main">
+        <header id="containerHeader">
+            <div id="menu-icon">
+                <i class="bi bi-grid-3x3-gap-fill"></i>
+            </div>
+
+            <div id="logo">
+                <a href="index.html">
+                    <img src="img/SkySync.svg">
+                </a>
+            </div>
+
+            <div id="mecanica">
+                <a href="planos.html">Serviço Mecânica</a>
+            </div>
+
+            <div id="pesquisar">
+                <a href="microsoft.com">Pesquisar</a>
+            </div>
+
+            <div id="suporte">
+                <a href="microsoft.com">Suporte</a>
+            </div>
+
+            <div id="carrinho">
+                <i class="bi bi-cart2"></i>
+                <a href="microsoft.com">Carrinho</a>
+            </div>
+
+            <div id="entrar">
+                <a href="login.html">Entrar</a>
+            </div>
+
+            <div id="iconUser">
+                <i class="bi bi-person-circle"></i>
+            </div>
+        </header>
+
+        <div id="fale-conosco">
+            <div id="texto-fale-conosco">
+                <h2>Entre em contato conosco</h2>
+                <p>Especialistas em preços da SkySync estão disponíveis para responder perguntas, criar uma cotação de preços personalizada e discutir como podemos ajudar sua mecânica.</p>
+            </div>
+        </div>
+
+        <div id="container-formulario">
+            <form class="formulario">
+                <label for="fname">Nome*</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Insira seu nome aqui"><br>
+
+                <label for="lname">Sobrenome*</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Insira seu sobrenome aqui"><br>
+
+                <label for="lname">Endereço de e-mail*</label><br>
+                <p>Informe seu endereço de e-mail corporativo para que possamos encaminhar sua consulta para o contato certo.</p>
+                <input type="email" id="lname" name="lname" placeholder="Insira seu email corporativo aqui"><br>
+
+                <label for="lname">Telefone*</label><br>
+                <input type="text" id="lname" name="lname" placeholder="(XX)XXXXX-XXXX"><br>
+
+                <label for="lname">Nome da empresa*</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Insira o nome da sua empresa aqui"><br>
+
+                <label for="lname">Estado*</label><br>
+                <select><br>
+                    <option value="opcao1">-selecione um estado-</option>
+                    <option value="opcao1">AC</option>
+                    <option value="opcao2">AL</option>
+                    <option value="opcao3">AP</option>
+                    <option value="opcao1">AM</option>
+                    <option value="opcao2">BA</option>
+                    <option value="opcao3">CE</option>
+                    <option value="opcao1">ES</option>
+                    <option value="opcao2">GO</option>
+                    <option value="opcao3">MA</option>
+                    <option value="opcao1">MT</option>
+                    <option value="opcao2">MS</option>
+                    <option value="opcao3">MG</option>
+                    <option value="opcao1">PA</option>
+                    <option value="opcao2">PB</option>
+                    <option value="opcao3">PR</option>
+                    <option value="opcao1">PE</option>
+                    <option value="opcao2">PI</option>
+                    <option value="opcao3">RJ</option>
+                    <option value="opcao1">RN</option>
+                    <option value="opcao2">RS</option>
+                    <option value="opcao3">RO</option>
+                    <option value="opcao1">RR</option>
+                    <option value="opcao2">SC</option>
+                    <option value="opcao3">SP</option>
+                    <option value="opcao1">SE</option>
+                    <option value="opcao2">TO</option>
+                </select> <br> <br>
+
+                <label for="lname">CEP*</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Insira seu CEP aqui"><br> <br>
+
+                <label for="lname">Descreva seu projeto*</label><br>
+                <p>Inclua os serviços de interesse, caso(s) de uso e/ou estimativas de utilização da SkySync.</p>
+                <textarea rows="4" cols="50" placeholder="Digite aqui a suas necessidades"></textarea>
+
+                <div class="checkbox-container">
+                    <input type="checkbox">
+                    <label>
+                        <p> Sim, quero que o SkySync Services compartilhe as novidades mais recentes sobre os serviços da SkySync e ofertas relacionadas comigo por e-mail, publicação ou telefone.</p>
+                    </label>
+                </div>
+                <button id="enviar">Enviar</button>
+            </form>
+        </div>
+
+        <div id="cookie-banner">
+            <div id="content-cookies">
+                <div id="icon-cookie">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cookie" viewBox="0 0 16 16">
+                        <path
+                            d="M6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m4.5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-.5 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                        <path
+                            d="M8 0a7.96 7.96 0 0 0-4.075 1.114q-.245.102-.437.28A8 8 0 1 0 8 0m3.25 14.201a1.5 1.5 0 0 0-2.13.71A7 7 0 0 1 8 15a6.97 6.97 0 0 1-3.845-1.15 1.5 1.5 0 1 0-2.005-2.005A6.97 6.97 0 0 1 1 8c0-1.953.8-3.719 2.09-4.989a1.5 1.5 0 1 0 2.469-1.574A7 7 0 0 1 8 1c1.42 0 2.742.423 3.845 1.15a1.5 1.5 0 1 0 2.005 2.005A6.97 6.97 0 0 1 15 8c0 .596-.074 1.174-.214 1.727a1.5 1.5 0 1 0-1.025 2.25 7 7 0 0 1-2.51 2.224Z" />
+                    </svg>
+                </div>
+                <div id="span-cookies">
+                    <p>Você sabe o que são cookies?</p>
+                    <span>Utilizamos cookies opcionais para aprimorar
+                        sua experiência em nossos sites, como através de integrações com redes sociais
+                        e para mostrar anúncios personalizados com base em sua atividade online.
+                        Caso você opte por não aceitar os cookies opcionais, apenas os cookies
+                        essenciais serão utilizados para fornecer os serviços.
+                    </span>
+                </div>
+                <div id="buttons-cookies">
+                    <button id="accept-cookies">Aceitar</button>
+                    <button id="reject-cookies">Rejeitar</button>
+                </div>
+            </div>
+            <button id="close-button"><i class="bi bi-x"></i> </button>
+        </div>
+        <footer id="footer-index">
+            <ul id="lista-footer">
+                <li><b>Novidades</b></li>
+                <li>Software de Gestão de Mecânicas</li>
+                <li>Explorar Produtos da SkySync</li>
+
+                <div id="idioma-spin">
+                    <div class="gtranslate_wrapper"></div>
+                    <script>window.gtranslateSettings = { "default_language": "pt", "languages": ["pt", "fr", "de", "it", "es"], "wrapper_selector": ".gtranslate_wrapper", "flag_size": 16, "alt_flags": { "en": "usa", "pt": "brazil" } }</script>
+                    <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+                </div>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>SkySync Store</b></li>
+                <li>Perfil da Conta</li>
+                <li>Download Software Mecânica</li>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>Desenvolvedor e TI</b></li>
+                <li>Centro do Desenvolvedor</li>
+                <li>Documentação</li>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>Empresa</b></li>
+                <li>Sobre a SkySync</li>
+                <li>Acessibilidade</li>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>Negócios</b></li>
+                <li>Mecânicas e nosso produto</li>
+                <li>Segurança da SkySync</li>
+            </ul>
+
+        </footer>
+
+        <script src="Styles/Js/script.js"></script>
+    </div>
+</body>
+
+</html>

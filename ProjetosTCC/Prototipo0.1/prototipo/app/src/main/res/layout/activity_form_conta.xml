@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".formconta.FormConta">
+
+    <TextView
+        android:id="@+id/textPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="#1D476F"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Perfil"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#96DAE3"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCli1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/textNumero"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="10dp"
+            android:text="telefone do cliente puxado do banco"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textVnome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SUA SENHA" />
+
+            <EditText
+                android:id="@+id/txtVnomeUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nome puxado do banco p/ dar update"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textVemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEU EMAIL" />
+
+            <EditText
+                android:id="@+id/txtVemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="E-mail puxado do banco p/ dar update"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textVtelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SEU TELEFONE" />
+
+            <EditText
+                android:id="@+id/txtVtelefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefone puxado do banco p/ dar update"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnPerfilAlterar"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_botao_adicionar"
+        android:gravity="center"
+        android:onClick="atualizar"
+        android:text="Alterar dados"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnPerfilVoltar"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_botao_voltar_agendamentos"
+        android:onClick="FormMenu"
+        android:text="Voltar"
+        android:textColor="@color/white" />
+
+</LinearLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".formveiculos.FormVeiculos">
+
+    <TextView
+        android:id="@+id/textMarca3"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="#1D476F"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="Veiculos Cadastrados"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgCli1"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textNumero"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Marca: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textModel1"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Modelo: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textCor1"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Cor: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textAno1"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Ano:"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageVeic2"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textMarca2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Marca: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textModel2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Modelo: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textCor2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Cor: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textAno2"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Ano:"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageVeic3"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Marca: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Modelo: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textCor3"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Cor: "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textAno3"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Ano:"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnAdicionar"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background_botao_adicionar"
+        android:gravity="center"
+        android:onClick="entrar"
+        android:text="Adicionar Veículo"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnVoltar2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_botao_voltar_agendamentos"
+        android:onClick="FormMenu"
+        android:text="Voltar"
+        android:textColor="@color/white" />
+
+</LinearLayout>

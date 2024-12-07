@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".formservicos.FormServicos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="#1D476F"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtServicos"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:hint="Agendamentos"
+            android:text="Serviços"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/gradiente_botao"
+        android:drawableLeft="@drawable/oleo"
+        android:drawableRight="@drawable/seta_direita"
+        android:drawablePadding="41dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:letterSpacing="0.1"
+        android:paddingLeft="30dp"
+        android:paddingEnd="10dp"
+        android:text="Troca de Óleo"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/gradiente_botao"
+        android:drawableLeft="@drawable/ic_balanceamento"
+        android:drawableRight="@drawable/seta_direita"
+        android:drawablePadding="41dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:letterSpacing="0.09"
+        android:paddingLeft="26dp"
+        android:paddingEnd="10dp"
+        android:text="Alinhamento e balanceamento"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/gradiente_botao"
+        android:drawableLeft="@drawable/ic_revisao"
+        android:drawableRight="@drawable/seta_direita"
+        android:drawablePadding="65dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+        android:letterSpacing="0.1"
+        android:paddingLeft="20dp"
+        android:paddingEnd="10dp"
+        android:text="Revisão"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</LinearLayout>

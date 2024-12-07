@@ -1,0 +1,203 @@
+#container-planos {
+    position: absolute;
+    width: 76vw;
+    height: 37vw;
+    background-color: aliceblue;
+    border: black solid 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 2vw;
+}
+
+#container-pai-planos {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: #005eb6;
+}
+
+#conteudo-planos {
+    position: absolute;
+    width: 98%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#planos-img img {
+    height: 4vw;
+    width: 16vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+#atributos-planos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+    height: 70%;
+    width: 94%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.05vw;
+    font-weight: 600;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 1.05vw;
+    margin-top: 1vw;
+}
+
+#atributos-planos div {
+    display: flex;
+    margin-top: 0.2vw;
+    height: 4vw;
+    align-items: center;
+    padding-left: 0.6vw;
+}
+
+#atributos-planos #check-circle {
+    color: rgb(0, 173, 0);
+    font-size: 1.7vw;
+    padding-left: 6vw;
+}
+
+#atributos-planos #x-circle {
+    color: red;
+    font-size: 1.7vw;
+    padding-left: 6vw;
+}
+
+.div-planos-cinza {
+    background-color: rgb(212, 230, 255);
+}
+
+#plano-anual {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14vw;
+    padding-top: 3vw;
+}
+
+#plano-prime {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.7vw;
+    padding-top: 3.2vw;
+}
+
+#plano-ilimitado {
+    margin-left: -3vw;
+}
+
+#plano-ilimitado-h2 {
+    margin-left: -3vw;
+}
+#plano-anual h2 {
+    margin-top: 0.1vw;
+    font-size: 1.5vw;
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
+#plano-prime h2 {
+    margin-top: 0.1vw;
+    font-size: 1.5vw;
+    height: fit-content;
+    margin-bottom: 0px;
+}
+
+#plano-anual p {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#plano-prime p {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+#plano-prime {
+    width: 10vw;
+}
+
+#container-flex-planos {
+    display: flex;
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 2vw;
+}
+
+#buttons-planos {
+    width: fit-content;
+    margin-left: 28vw;
+}
+
+#btn-plano-anual {
+    margin-top: 0.4vw;
+    border-radius: 0.5vw;
+    height: 2.8vw;
+    width: 12vw;
+    background-color: #005eb6;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+#btn-plano-prime {
+    width: 12vw;
+    border-radius: 0.5vw;
+    height: 2.8vw;
+    background-color: #005eb6;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 2.5vw;
+}
+
+#btn-plano-ilimitado {
+    width: 12vw;
+    border-radius: 0.5vw;
+    height: 2.8vw;
+    background-color: #005eb6;
+    border: none;
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 30vw;
+}
+
+.preco-anual {
+    display: flex;
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+    height: 4vw;
+}
+
+.preco-prime {
+    display: flex;
+    font-size: 2.0em;
+    font-weight: bold;
+    margin-bottom: 1.5vw;
+    height: 4vw;
+}
+
+.cifra-plano {
+    display: flex;
+    font-size: 1.8vw;
+    align-items: end;
+    margin-top: 4.6vw;
+    margin-right: 0.5vw;
+}
+
+.cliente-padding {
+    display: flex;
+    align-items: center;
+    margin-left: -2vw;
+}

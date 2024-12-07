@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkySync", "SkySync\SkySync.csproj", "{2A4A754B-2403-415D-9CFC-B33186789AC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A4A754B-2403-415D-9CFC-B33186789AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A4A754B-2403-415D-9CFC-B33186789AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A4A754B-2403-415D-9CFC-B33186789AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A4A754B-2403-415D-9CFC-B33186789AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BC0A8B9-9CB8-4A99-8D9D-7CD1CB56A222}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" href="/styles/img/nuvem.png" type="image/png">
+    <title>SkySync</title>
+</head>
+
+<body class="fade-in">
+    <div id="container-main">
+        <header id="containerHeader">
+            <div id="menu-icon">
+                <i class="bi bi-grid-3x3-gap-fill"></i>
+            </div>
+
+            <div id="logo">
+                <a href="index.html">
+                    <img src="img/SkySync.svg">
+                </a>
+            </div>
+
+            <div id="pesquisar-caixa" class="escondido">
+                <input type="text" id="caixa-de-pesquisa" name="lname" placeholder="Pesquisar em Manutenção">
+                <button id="cancelar-pesquisa">Cancelar</button>
+            </div>
+
+            <div id="mecanica">
+                <a href="planos.html">Serviço Mecânica</a>
+            </div>
+
+            <div id="pesquisar">
+                <a href="#">Pesquisar</a>
+            </div>
+
+            <div id="sobre-nos">
+                <a href="cotacao.html">Sobre Nós</a>
+            </div>
+
+            <div id="entrar">
+                <a href="login.html">Entrar</a>
+                <i class="bi bi-person-circle"></i>
+            </div>
+
+        </header>
+
+        <div id="scrollImagens">
+            <a href="planos.html"><img src="img/bannerMecanica3.jpg"></a>
+            <div id="textoPropaganda">
+                <p>Venha conhecer o novo Software de Gestão para Mecânicas Automotivas!</p>
+                <p id="descricaoPropaganda">Experimente o Software de Gestão para Mecânicas
+                    Automotivas: uma solução prática para agendar serviços, controlar estoque
+                    e gerenciar finanças com eficiência e facilidade.</p>
+                <button type="button" id="btn-saibamais" class="btn btn-primary">Saiba Mais</button>
+            </div>
+        </div>
+        
+        <div id="container-celular">
+            <div id="conteudo-celular">
+                <img src="styles/img/bannerCelular.png">
+                <div id="texto-celular">
+                    <h2>SkySync APP</h2>
+                    <p>Acompanhe o progresso dos serviços automotivos dentro e fora das mecânicas na palma da sua mão</p>
+                    <div id="botoes-app">
+                        <img src="styles/img/playstore.png">
+                        <img src="styles/img/appstore.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="pop-conectar">
+            <div id="div-clique">
+                <i id="icon-mensagem" class="bi bi-chat-left-dots"></i>
+                <p>Posso conectar você com um representante da SkySync.</p>
+            </div>
+            <i id="close-conectar" class="bi bi-x"></i>
+        </div>
+
+        <div id="pop-conectar-mensagem">
+            <i id="icon-mensagem" class="bi bi-chat-left-dots"></i>
+        </div>
+
+        <div id="chat-bot-aba" class="escondido">
+            <div id="chat-bot-header">
+                <div id="h2-chatbot">
+                    <h2>Assistente Virtual da SkySync</h2>
+                    <i id="btn-sair-chatbot" class="bi bi-x"></i>
+                </div>
+
+                <div id="representantes-texto">
+                    <i class="bi bi-moon-fill"></i>
+                    <p>Nossos representantes de vendas estão off-line</p>
+                </div>
+            </div>
+
+            <div id="chatbot-mensagem">
+                <div id="chatbot-manutenção">
+                    <p>        
+                        Olá! No momento, o chatbot está em manutenção e, infelizmente, não está disponível para uso. Pedimos, 
+                        por favor, que entre em contato conosco por outros meios.
+                    </p>
+                </div>
+            </div>
+
+            <div id="chatbot-mandarMensagem">
+                <div id="enviar-mensagem">
+                    <p>
+                        O chatbot está desativado
+                    </p>
+                    <i class="bi bi-send"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="cookie-banner">
+            <div id="content-cookies">
+                <div id="icon-cookie">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="0.9vw" height="0.9vw" fill="currentColor"
+                        class="bi bi-cookie" viewBox="0 0 16 16">
+                        <path
+                            d="M6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m4.5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-.5 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                        <path
+                            d="M8 0a7.96 7.96 0 0 0-4.075 1.114q-.245.102-.437.28A8 8 0 1 0 8 0m3.25 14.201a1.5 1.5 0 0 0-2.13.71A7 7 0 0 1 8 15a6.97 6.97 0 0 1-3.845-1.15 1.5 1.5 0 1 0-2.005-2.005A6.97 6.97 0 0 1 1 8c0-1.953.8-3.719 2.09-4.989a1.5 1.5 0 1 0 2.469-1.574A7 7 0 0 1 8 1c1.42 0 2.742.423 3.845 1.15a1.5 1.5 0 1 0 2.005 2.005A6.97 6.97 0 0 1 15 8c0 .596-.074 1.174-.214 1.727a1.5 1.5 0 1 0-1.025 2.25 7 7 0 0 1-2.51 2.224Z" />
+                    </svg>
+                </div>
+                <div id="span-cookies">
+                    <p>Você sabe o que são cookies?</p>
+                    <span>Utilizamos cookies opcionais para aprimorar
+                        sua experiência em nossos sites, como através de integrações com redes sociais
+                        e para mostrar anúncios personalizados com base em sua atividade online.
+                        Caso você opte por não aceitar os cookies opcionais, apenas os cookies
+                        essenciais serão utilizados para fornecer os serviços.
+                    </span>
+                </div>
+                <div id="buttons-cookies">
+                    <button id="accept-cookies">Aceitar</button>
+                    <button id="reject-cookies">Rejeitar</button>
+                </div>
+            </div>
+            <button id="close-button"><i class="bi bi-x"></i> </button>
+        </div>
+        <footer id="footer-index">
+            <ul id="lista-footer">
+                <li><b>Novidades</b></li>
+                <li>Software de Gestão de Mecânicas</li>
+                <li>Explorar Produtos da SkySync</li>
+                <div id="idioma-spin">
+                    <div class="gtranslate_wrapper"></div>
+                    <script>window.gtranslateSettings = { "default_language": "pt", "languages": ["pt", "fr", "de", "it", "es"], "wrapper_selector": ".gtranslate_wrapper", "flag_size": 16, "alt_flags": { "en": "usa", "pt": "brazil" } }</script>
+                    <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+                </div>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>SkySync Store</b></li>
+                <li>Perfil da Conta</li>
+                <li>Download Software Mecânica</li>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>Desenvolvedor e TI</b></li>
+                <li>Centro do Desenvolvedor</li>
+                <li>Documentação</li>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>Empresa</b></li>
+                <li>Sobre a SkySync</li>
+                <li>Acessibilidade</li>
+            </ul>
+
+            <ul id="lista-footer">
+                <li><b>Negócios</b></li>
+                <li>Mecânicas e nosso produto</li>
+                <li>Segurança da SkySync</li>
+            </ul>
+
+        </footer>
+        <script src="Styles/Js/script.js"></script>
+        <script src="Styles/Js/index.js"></script>
+    </div>
+</body>
+
+</html>
